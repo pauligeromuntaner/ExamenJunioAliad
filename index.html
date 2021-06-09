@@ -1,21 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link rel="stylesheet" href="./css/main.css" />
-    </head>
-    <body>
-        <!-- HEADER -->
-        <header>
-        </header>
-        <!-- MAIN -->
-        <main>
-        </main>
-        <!-- FOOTER -->
-        <footer>
-        </footer>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <section class="section_header">
+        <section class="header_sectionbtn">
+          <button class="header_button firstbtn btndesktop">
+            ¡Comprar Ya!
+          </button>
+        </section>
+        <nav class="header_nav">
+          <section class="headernav_section">
+            <a href="#" class="a_nav products inicio"> Inicio </a>
+            <a href="#" class="a_nav products"> Productos </a>
+            <a href="#" class="a_nav services"> Servicios </a>
+          </section>
+        </nav>
+      </section>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <section class="section_logo">
+        <h2 class="logo">LOGOTIPO</h2>
+      </section>
+      <section class="section_firstcontainer">
+        <section class="firstcontainer_right">
+          <h2 class="logodesktop nuevalente">Nueva cámara, con nueva lente</h2>
+          <picture>
+            <!-- smartphone -->
+            <source
+              srcset="
+                img/smartphone/camara_frente.jpg    1x,
+                img/smartphone/camara_frente@2x.jpg 2x,
+                img/smartphone/camara_frente@3x.jpg 3x
+              "
+              media="(min-width:300px) and (max-width:450px) and (orientation: portrait)"
+            />
+            <!-- escritorio -->
+            <source
+              srcset="
+                img/desktop/camara_frente.jpg    1x,
+                img/desktop/camara_frente@2x.jpg 2x
+              "
+              media="(min-width:1200px)"
+            />
+
+            <!-- Imagen de respaldo -->
+            <img class="camara_frente"
+              src="img/desktop/camara_frente.jpg"
+              alt="camara canon foto frontal"
+            />
+          </picture>
+        </section>
+        <section class="firstcontainer_left">
+          <h2 class="logodesktop">LOGOTIPO</h2>
+          <p class="parrafo firstcontainer_p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis sapien
+            ac eget orci lectus a. Tellus integer accumsan aliquet arcu cras
+            tristique. Semper proin porta adipiscing faucibus. Eu scelerisque
+            ornare nunc, venenatis fringilla tincidunt consectetur.
+          </p>
+          <button class="firstbtn firstcontainer_button">Leer más</button>
+        </section>
+      </section>
+
+      <section class="first_camera"></section>
+      <section class="section_secondcontainer">
+        <section class="secondcontainer_row1">
+          <h4 class="secondcontainer_title">Opción 1</h4>
+          <p class="secondcontainer_p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis sapien
+            ac eget orci lectus a.
+          </p>
+          <h4 class="secondcontainer_title">Opción 2</h4>
+          <p class="secondcontainer_p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis sapien
+            ac eget orci lectus a.
+          </p>
+        </section>
+        <section class="second_camera"></section>
+        <section class="secondcontainer_row2">
+          <h4 class="secondcontainer_title">Opción 3</h4>
+          <p class="secondcontainer_p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis sapien
+            ac eget orci lectus a.
+          </p>
+          <h4 class="secondcontainer_title">Opción 4</h4>
+          <p class="secondcontainer_p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis sapien
+            ac eget orci lectus a.
+          </p>
+        </section>
+      </section>
+
+      <section class="section_thirdcontainer">
+        <section class="thirdcontainer_left">
+          <picture>
+            <!-- smartphone -->
+            <source
+              srcset="
+                img/smartphone/lente.jpg    1x,
+                img/smartphone/lente@2x.jpg 2x,
+                img/smartphone/lente@3x.jpg 3x
+              "
+              media="(min-width:300px) and (max-width:450px) and (orientation: portrait)"
+            />
+            <!-- escritorio -->
+            <source
+              srcset="img/desktop/lente.jpg 1x, img/desktop/lente@2x.jpg 2x"
+              media="(min-width:1200px)"
+            />
+
+            <!-- Imagen de respaldo -->
+            <img class="lente"
+              src="img/desktop/lente.jpg"
+              alt="fotografia lente de camara canon"
+            />
+          </picture>
+        </section>
+        <section class="thirdcontainer_right">
+          <p class="parrafo thirdcontainer_p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictumst
+            proin augue habitant nibh condimentum. Mi imperdiet enim aliquam
+            enim proin tellus, fringilla et et. Ultrices lobortis in risus
+            suspendisse eget rhoncus, mauris, lobortis. In tincidunt bibendum at
+            in cursus. Eleifend faucibus turpis quis justo amet maecenas quis.
+            Suscipit nibh sem est at. A lectus euismod metus, pretium id. Leo ac
+            elementum diam eget massa consectetur. Adipiscing maecenas sit
+            gravida tincidunt posuere aenean semper auctor. Placerat sit quam
+            mattis integer amet cursus. Turpis non magna risus libero, volutpat,
+            et. Tortor elementum magna odio nulla. Id fermentum sapien eu nunc
+            tristique id. Egestas purus venenatis interdum odio est ipsum
+            faucibus maecenas. Ultricies sit erat ac nunc velit. Etiam neque
+            blandit pharetra orci sed amet. Ultricies nec, vulputate suspendisse
+            auctor risus massa vel, viverra pulvinar. Malesuada dignissim
+            feugiat morbi sit dolor urna. A et ipsum sollicitudin phasellus
+            ultricies. Suscipit et et platea eget in faucibus. Vitae amet,
+            malesuada erat praesent. Enim, lacinia enim placerat mi morbi dui
+            sapien eget. Sapien convallis sed quis amet tellus in sed quam id.
+          </p>
+        </section>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <section class="section_footer">
+          <section class="section_empresa">
+            <h4 class="footer_title">Empresa</h4>
+            <li class="footer_li">Quienes Somos</li>
+            <li class="footer_li">Historia</li>
+            <li class="footer_li"></li>
+          </section>
+          <section class="section_comunidad">
+            <h4 class="footer_title">Comunidad</h4>
+            <li class="footer_li">Eventos</li>
+            <li class="footer_li">Blog</li>
+            <li class="footer_li">Foros</li>
+          </section>
+        <section class="section_contactar">
+          <h4 class="footer_title">Contactar</h4>
+          <li class="footer_li">Formulario</li>
+          <li class="footer_li">+34 666 66 66 66</li>
+        </section>
+        <section class="section_redes">
+          <h4 class="footer_title">Redes</h4>
+          <li class="footer_buttons footer_li">Facebook</li>
+          <li class="footer_buttons footer_li">Twitter</li>
+          <li class="footer_buttons footer_li">Instagram</li>
+        </section>
+        <section class="section_input">
+          <input type="text" placeholder="tu email" class="footer_input" />
+          <button class="firstbtn btnoticias">Noticias</button>
+        </section>
+      </section>
+      <section class="section_copy">
+        <h4>Copyright 2021 - Examen Áliad Junio</h4>
+      </section>
+    </footer>
+  </body>
 </html>

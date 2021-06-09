@@ -1,2 +1,148 @@
 /* @HOME */
+
+@media only screen and (max-width: 360px) {
+  .section_firstcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $marron;
+    padding: 1rem;
+    margin: 1rem;
+  }
+  .first_camera::before {
+    content: url("../../img/desktop/camara_arriba.jpg");
+    display: flex;
+    justify-content: center;
+  }
+  .section_footerdoble {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .logodesktop {
+    display: none;
+  }
+  .section_thirdcontainer {
+    background-color: $beach;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .footer_buttons {
+    background: none;
+    border: 1px solid black;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+footer {
+    background: $gris;
+    padding: 1rem;
+}
+
+li {
+    list-style-type: none;
+    margin: 1rem;
+}
+
+.section_redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer_input {
+    width: 20.5rem;
+    height: 3.125rem;
+    color: $gris;
+    border: none;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2.3rem;
+}
+
+.section_copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin-top: 1.5rem;
+}
+}
+
+
+@media only screen and (min-width: 400px) {
+  .second_camera::before {
+    content: url("../../img/desktop/camara_arriba.jpg");
+  }
+  .logo {
+    display: none;
+  }
+  .section_firstcontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    background: $marron;
+    padding: 6rem 0rem;
+  }
+  .firstcontainer_left {
+    width: 700px;
+  }
+  .firstcontainer_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section_secondcontainer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2rem;
+  }
+  .secondcontainer_title {
+      margin-top: 4rem;
+  }
+  .secondcontainer_p {
+      width: 21rem;
+  }
+  .section_thirdcontainer {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background: $beach;
+      padding: 4rem;
+  }
+  .thirdcontainer_left {
+      margin-right: 2rem;
+  }
+  .thirdcontainer_right {
+      width: 37.5rem;
+  }
+  .section_footer {
+      display: flex;
+      justify-content: space-around;
+  }
+  .camara_frente {
+      width: 30vw;
+  }
+  .firstcontainer_button {
+      border-radius: 0px;
+      width: 8rem;
+      text-align: center;
+  }
+}
+
+.nuevalente {
+  font-size: 2.25rem;
+  font-weight: 900;
+}
+
 /* ********** */

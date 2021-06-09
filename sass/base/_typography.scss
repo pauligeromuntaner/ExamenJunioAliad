@@ -1,2 +1,60 @@
 /* @TIPOGRAFÍA */
+
+.logo {
+    font-size: $titlesize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 1rem
+}
+
+.logodesktop {
+    font-size: $titlesize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 1rem 
+}
+
+.firstcontainer_p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: $parrafosize;
+}
+
+.secondcontainer_title {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin: 1rem;
+}
+
+.secondcontainer_p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 1rem;
+}
+
+.thirdcontainer_p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.footer_title {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: $normalsize;
+}
+
+.footer_li {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: $parrafosize;    
+}   
+
+
 /* ********** */
